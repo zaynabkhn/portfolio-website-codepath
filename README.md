@@ -31,4 +31,4 @@ CodePath WEB101 Event Website/
 ## 🚀 How to Run Locally
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/zaynabkhn/portfolio-website-codepath.git
+   git clone https://github.com/zaynabkhn/codepath-web101-event.git
