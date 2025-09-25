@@ -3,7 +3,7 @@
 This is a responsive, multi-section event website created as part of the CodePath Intro to Web Development course. The site is themed around a fictional “Women in Tech” conference: Tech Tribe 2025.
 
 ## 🔗 Live Demo
-[View Site](https://zaynabkhn.github.io/portfolio-website-codepath/)
+[View Site](https://zaynabkhn.github.io/codepath-web101-event/)
 
 ## 📁 Project Structure
 CodePath WEB101 Event Website/
