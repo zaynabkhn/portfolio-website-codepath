@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Women Tech Events</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="img/smalltab.png">
+    </head>
+    
+    
+
+    <body>
+    
+        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4] -->
+        <!-- Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+
+      <div class="navbar">
+        <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#links">Links</a></li>
+        <li>
+        <button id="theme-button" type="button">Toggle Dark Mode</button>
+        </li>
+        </ul>
+      </div>
+
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+      <div class="header-container centered-header">
+        <div class="header-item">
+          <!-- Left side: logo image -->
+          <img id="header-img" src="./img/logo.png" alt="Logo"/>
+        </div>
+      <div class="header-item">
+          <!-- Right side: titles and buttons -->
+          <h1>Women in Tech Conference</h1>
+          <h2>Tech Tribe 2025</h2>
+            <div class="button-group">
+              <button class="header-button" type="button">View Panel Lineup</button>
+              <button class="header-button" type="button">Buy Conference Tickets</button>
+          </div>
+        </div>
+      </div>
+
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="about">About the Event</h2>
+        <p>Join the Women in Tech Tribe 2025 to explore the cutting edge of tech, focusing on leadership, innovation, and career advancement for women. Sessions delve into vital topics such as breaking the glass ceiling, building personal brands, and leveraging emotional intelligence in the workplace. Connect with industry leaders, gain actionable insights, and empower yourself and others to thrive in the ever-evolving tech landscape.</p>
+
+        <h3>Tech Forward: Women Leading the Way</h3>
+        <h4>Innovate, Inspire, Impact</h4>
+<ul class="bullet-list">
+    <li>
+        At the heart of innovation lies the power to challenge the status quo and envision new possibilities. This event celebrates the creative spirit of women in technology, providing a platform to explore emerging trends, breakthrough ideas, and transformative solutions that have the potential to redefine industries and create a better tomorrow. Through workshops, talks, and interactive sessions, participants will gain the tools and inspiration to become pioneers in their fields.
+    </li>
+    <li>
+        Inspiration comes from shared experiences and the stories of those who have overcome challenges to achieve success. By fostering a supportive community of women leaders, mentors, and peers, this conference creates an environment where attendees can build confidence, develop new skills, and draw motivation from real-world journeys. Together, we nurture a culture of encouragement and empowerment that drives individuals to reach their full potential and aspire to greatness.
+    </li>
+    <li>
+        Making an impact means more than personal success — it involves creating lasting change that benefits the broader tech ecosystem. This event highlights the importance of diversity, equity, and inclusion as vital components of innovation and progress. By advocating for equitable opportunities and amplifying underrepresented voices, participants are empowered to break down barriers, influence policies, and lead initiatives that transform workplaces and communities for the better.
+    </li>
+</ul>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <img alt="GeneralEventImage" src="img/general.png"/>
+        <h2 id="schedule">Event Schedule</h2>
+
+        
+        <h3>Event Activity 1: Speed Mentoring Sessions</h3>
+        <img alt="SpeedMentoringImage" src="img/speedmentor.png"/>
+        <p>Fast-paced, rotating mentoring event where participants meet with experienced women in tech for 5–7 minute one-on-one conversations. It’s a great opportunity for attendees to ask questions, get career advice, and build connections with industry professionals.</p>
+            
+        
+        <h3>Event Activity 2: Tech Career Vision Board Workshop</h3>
+        <img alt="VisionBoardImage" src="img/visionboard.png"/>
+        <p>An interactive creative session where participants design vision boards to map out their tech career goals, dream roles, and personal growth milestones. Using magazines, digital tools, or drawing materials, this activity encourages reflection, goal-setting, and inspiration in a supportive environment.</p>
+    
+        <h3>Event Activity 3: Panel Discussion - Breaking Barriers in Tech</h3>
+        <img alt="PanelDiscussionImage" src="img/panel.png"/>
+        <p>A dynamic panel featuring diverse women leaders in technology who share their personal journeys, challenges they've overcome, and advice for navigating the industry. The session includes a live Q&A, giving attendees the chance to ask meaningful questions and gain real-world insights.</p>
+
+        <!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2>
+    
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            <!-- info goes here -->
+             <p>Excited to attend Tech Tribe 2025? We can’t wait to welcome you! Let us know you’re coming by filling out the RSVP form. It’s quick and easy, and by signing up, you’ll secure your spot among an amazing community of women in tech. We’d love to see your name on the guest list and share this incredible experience with you. Whether you’re here to learn, network, or be inspired, this event promises valuable connections and unforgettable moments. 💜</p>
+        </div>
+        <div class="rsvp-participants">
+            <p>🎟️ Samantha from California has RSVP'd.</p>
+            <p>🎟️ Amy from Texas has RSVP'd.</p>
+            <p>🎟️ Teresa from Illinois has RSVP'd.</p>
+            <p id="rsvp-count">⭐ 3 people have RSVP'd to this event!</p>
+        </div>
+    </div>
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+<form id="rsvp-form" title="rsvp-form">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required>
+  </div>
+  <button id="rsvp-button" type="button">Submit RSVP</button>
+</form>
+    </div>      
+</div>
+
+
+
+
+
+
+
+
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+<!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div class="modal-item">
+            <!-- Text element here -->
+             <p class="modal-message"></p>
+             <button id="close-modal-button">Close</button>
+        </div>
+        <div class="modal-item">
+            <!-- Image element here -->
+                 <img src="img/rsvp_icon.png" alt="RSVP icon" class="modal-image">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="links">Links</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://www.codepath.org">
+            <article>
+                <h3>CodePath</h3>
+                <p>Offers free, industry-aligned courses that help students and professionals advance their software engineering skills.</p>
+            </article>
+        </a>
+
+        <a class="block" href="https://girlswhocode.com">
+            <article>
+                <h3>Girls Who Code</h3>
+                <p>Learn more about programs supporting women in tech.</p>
+            </article>
+        </a>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+    <script src="index.js" defer></script>
+    </body>
+</html>
